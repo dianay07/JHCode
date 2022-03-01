@@ -1,5 +1,5 @@
 # 
-# TIL ( TODAT I LEARNED )
+# generate_readme_automatically
 
 > 3월부터 공부한 내용들을 기록합니다.
 
