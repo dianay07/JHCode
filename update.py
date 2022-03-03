@@ -4,7 +4,7 @@ import os
 from urllib import parse
 
 HEADER="""# 
-# generate_readme_automatically
+# TODAT I LEARED
 
 ---
 """
