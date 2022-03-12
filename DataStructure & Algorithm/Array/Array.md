@@ -9,19 +9,19 @@ Array ( 2022. 03 .12 )
       인덱스 값이 배열의 크기보다 작은지 검사안함
     - at(index)를 제공, index값이 유효하지 않으면 예외를 발생시킴
 
-    ```c++
-    std::array<int,4> arr3 = {1,2,3,4};
+```c++
+std::array<int,4> arr3 = {1,2,3,4};
 
-    try
-    {
-        std::cout << arr3.at(3) << endl;
-        std::cout << arr3.at(4) << endl;
-    }
-    catch (const std::out_of_range& ex)
-    {
-        std::cerr << ex.what() << std::endl;
-    }
-    ```
+try
+{
+    std::cout << arr3.at(3) << endl;
+    std::cout << arr3.at(4) << endl;
+}
+catch (const std::out_of_range& ex)
+{
+  std::cerr << ex.what() << std::endl;
+}
+```
 
     - array의 크기는 컴파일 시간에 결정되는 상수여야 하기 때문에 실행중 변경불가
     - 크기가 고정되어 있어 원소의 추가 및 삭제가 불가
