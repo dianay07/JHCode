@@ -6,7 +6,7 @@
 ### DataStructure & Algorithm
 - [Array](./DataStructure%20%26%20Algorithm/Array/Array.md)
 
-- [Forward_list](./DataStructure%20%26%20Algorithm/Forward_list/Forward_list)
+- [List](./DataStructure%20%26%20Algorithm/List/List.md)
 
 - [Vector](./DataStructure%20%26%20Algorithm/Vector/vector.md)
 
