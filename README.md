@@ -18,4 +18,9 @@
 
 - [트리,힙,그래프](./DataStructure%20%26%20Algorithm/%ED%8A%B8%EB%A6%AC%2C%ED%9E%99%2C%EA%B7%B8%EB%9E%98%ED%94%84/%ED%8A%B8%EB%A6%AC.md)
 
-### [개념](./%EA%B0%9C%EB%85%90/%EB%B9%8C%EB%8D%94%20%ED%95%A8%EC%88%98%28builder%20function%29.txt)
+### 미분류
+- [메모리 구조](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md)
+- [메모리 구조](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0/%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B5%AC%EC%A1%B0.png)
+
+- [빌더 함수](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%B9%8C%EB%8D%94%20%ED%95%A8%EC%88%98/%EB%B9%8C%EB%8D%94%20%ED%95%A8%EC%88%98%28builder%20function%29.txt)
+
