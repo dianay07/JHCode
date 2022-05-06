@@ -4,19 +4,19 @@
 ---
 ### [C++](./C%2B%2B/FIrstTest.md)
 ### DataStructure & Algorithm
+- [Array](./DataStructure%20%26%20Algorithm/Array/Array.md)
 
-### 리스트,스택,큐
-- [Array](./DataStructure%20%26%20Algorithm/%EB%A6%AC%EC%8A%A4%ED%8A%B8%2C%EC%8A%A4%ED%83%9D%2C%ED%81%90/Array/Array.md)
+- [Deque](./DataStructure%20%26%20Algorithm/Deque/Deque.md)
 
-- [Deque](./DataStructure%20%26%20Algorithm/%EB%A6%AC%EC%8A%A4%ED%8A%B8%2C%EC%8A%A4%ED%83%9D%2C%ED%81%90/Deque/Deque.md)
+- [List](./DataStructure%20%26%20Algorithm/List/List.md)
 
-- [List](./DataStructure%20%26%20Algorithm/%EB%A6%AC%EC%8A%A4%ED%8A%B8%2C%EC%8A%A4%ED%83%9D%2C%ED%81%90/List/List.md)
+- [Vector](./DataStructure%20%26%20Algorithm/Vector/vector.md)
 
-- [Vector](./DataStructure%20%26%20Algorithm/%EB%A6%AC%EC%8A%A4%ED%8A%B8%2C%EC%8A%A4%ED%83%9D%2C%ED%81%90/Vector/vector.md)
+- [연속,연결된 자료구조](./DataStructure%20%26%20Algorithm/%EC%97%B0%EC%86%8D%2C%EC%97%B0%EA%B2%B0%EB%90%9C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%97%B0%EC%86%8D%EC%97%B0%EA%B2%B0%EB%90%9C%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
 
-- [연속,연결된 자료구조](./DataStructure%20%26%20Algorithm/%EB%A6%AC%EC%8A%A4%ED%8A%B8%2C%EC%8A%A4%ED%83%9D%2C%ED%81%90/%EC%97%B0%EC%86%8D%2C%EC%97%B0%EA%B2%B0%EB%90%9C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%97%B0%EC%86%8D%EC%97%B0%EA%B2%B0%EB%90%9C%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
+- [트리](./DataStructure%20%26%20Algorithm/%ED%8A%B8%EB%A6%AC/%ED%8A%B8%EB%A6%AC.md)
 
-- [트리,힙,그래프](./DataStructure%20%26%20Algorithm/%ED%8A%B8%EB%A6%AC%2C%ED%9E%99%2C%EA%B7%B8%EB%9E%98%ED%94%84/%ED%8A%B8%EB%A6%AC.md)
+- [힙](./DataStructure%20%26%20Algorithm/%ED%9E%99/%ED%9E%99.md)
 
 ### 미분류
 - [렌더링 파이프라인](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.md)
