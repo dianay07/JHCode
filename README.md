@@ -28,3 +28,6 @@
 - [프로세스와 스레드](./%EB%AF%B8%EB%B6%84%EB%A5%98/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
 
 ### [이미지](./%EC%9D%B4%EB%AF%B8%EC%A7%80/image.png)
+### 프로그래머스 하면서 본것
+- [STL.Numeric](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20%ED%95%98%EB%A9%B4%EC%84%9C%20%EB%B3%B8%EA%B2%83/STL.Numeric/Numeric.md)
+
