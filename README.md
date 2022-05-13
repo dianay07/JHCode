@@ -3,24 +3,26 @@
 
 ---
 ### [C++](./C%2B%2B/FIrstTest.md)
-### DataStructure & Algorithm
-- [Array](./DataStructure%20%26%20Algorithm/Array/Array.md)
+### DataStructure
+- [Array](./DataStructure/Array/Array.md)
 
-- [Deque](./DataStructure%20%26%20Algorithm/Deque/Deque.md)
+- [Deque](./DataStructure/Deque/Deque.md)
 
-- [List](./DataStructure%20%26%20Algorithm/List/List.md)
+- [List](./DataStructure/List/List.md)
 
-- [Vector](./DataStructure%20%26%20Algorithm/Vector/vector.md)
+- [Vector](./DataStructure/Vector/vector.md)
 
-- [그래프](./DataStructure%20%26%20Algorithm/%EA%B7%B8%EB%9E%98%ED%94%84/%EA%B7%B8%EB%9E%98%ED%94%84.md)
+- [그래프](./DataStructure/%EA%B7%B8%EB%9E%98%ED%94%84/%EA%B7%B8%EB%9E%98%ED%94%84.md)
 
-- [연속,연결된 자료구조](./DataStructure%20%26%20Algorithm/%EC%97%B0%EC%86%8D%2C%EC%97%B0%EA%B2%B0%EB%90%9C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%97%B0%EC%86%8D%EC%97%B0%EA%B2%B0%EB%90%9C%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
+- [블룸 필터](./DataStructure/%EB%B8%94%EB%A3%B8%20%ED%95%84%ED%84%B0/%EB%B8%94%EB%A3%B8%20%ED%95%84%ED%84%B0.md)
 
-- [트리](./DataStructure%20%26%20Algorithm/%ED%8A%B8%EB%A6%AC/%ED%8A%B8%EB%A6%AC.md)
+- [연속,연결된 자료구조](./DataStructure/%EC%97%B0%EC%86%8D%2C%EC%97%B0%EA%B2%B0%EB%90%9C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%97%B0%EC%86%8D%EC%97%B0%EA%B2%B0%EB%90%9C%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
 
-- [해시 테이블](./DataStructure%20%26%20Algorithm/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94.md)
+- [트리](./DataStructure/%ED%8A%B8%EB%A6%AC/%ED%8A%B8%EB%A6%AC.md)
 
-- [힙](./DataStructure%20%26%20Algorithm/%ED%9E%99/%ED%9E%99.md)
+- [해시 테이블](./DataStructure/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94.md)
+
+- [힙](./DataStructure/%ED%9E%99/%ED%9E%99.md)
 
 ### 미분류
 - [렌더링 파이프라인](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.md)
