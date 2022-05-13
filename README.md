@@ -2,6 +2,7 @@
 # TODAY I LEARED
 
 ---
+### [Algorithm](./Algorithm/%EC%9D%B4%EC%A7%84%20%EA%B2%80%EC%83%89.md)
 ### [C++](./C%2B%2B/FIrstTest.md)
 ### DataStructure
 - [Array](./DataStructure/Array/Array.md)
