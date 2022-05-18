@@ -3,6 +3,8 @@
 
 ---
 ### Algorithm
+- [그리디 알고리즘](./Algorithm/%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+
 - [맵리듀스](./Algorithm/%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4/%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4.md)
 
 - [분할 정복](./Algorithm/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5.md)
@@ -20,6 +22,8 @@
 - [Vector](./DataStructure/Vector/vector.md)
 
 - [그래프](./DataStructure/%EA%B7%B8%EB%9E%98%ED%94%84/%EA%B7%B8%EB%9E%98%ED%94%84.md)
+
+- [디스조인트-셋](./DataStructure/%EB%94%94%EC%8A%A4%EC%A1%B0%EC%9D%B8%ED%8A%B8-%EC%85%8B/%EB%94%94%EC%8A%A4%EC%A1%B0%EC%9D%B8%ED%8A%B8-%EC%85%8B.md)
 
 - [블룸 필터](./DataStructure/%EB%B8%94%EB%A3%B8%20%ED%95%84%ED%84%B0/%EB%B8%94%EB%A3%B8%20%ED%95%84%ED%84%B0.md)
 
