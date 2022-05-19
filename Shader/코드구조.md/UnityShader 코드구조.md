@@ -27,13 +27,18 @@ UnityShader 코드구조
 ```c++
 struct SurfaceOutputStandard
 {
-    fixed3 Albedo;
-    fixed3 Normal;
-    fixed3 Emission;
-    half Metallic;
-    half Smoothness;
-    half Occlusion;
-    half Alpha;
+    fixed3 Albedo;      // base (diffuse or specular) color
+    fixed3 Normal;      // tangent space normal, if written
+    half3 Emission;
+    half Metallic;      // 0=non-metal, 1=metal
+    half Smoothness;    // 0=rough, 1=smooth
+    half Occlusion;     // occlusion (default 1)
+    fixed Alpha;        // alpha for transparencies
 }
 ```
 
+> 4) UV 좌표
+----------
+- 2D 그래픽에서의 XY좌표를 뜻함. ( 언리얼, DirectX에서는 좌상단(0,0)부터 우하단(1,1)으로, 유니티는 좌하단(0,0)부터 우상단(1,1)으로 )
+- float2 단위로 CG코드 내에서 (Input) IN.uv_MainTex 내부에 .x와 .y가 있음.
+- 유니티 내부 코드인 _Time, _SinTime, _CosTime, Unity_DeltaTime을 fixed c 등에 연산시켜 움직이는 연출이 가능
