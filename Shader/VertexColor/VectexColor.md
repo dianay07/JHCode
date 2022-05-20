@@ -55,3 +55,8 @@ Shader "Custom/vertexcolor"
 * Surf() 해석
     - Properties에 나타낼 텍스쳐 지정
     - 지정한 텍스쳐들을 R값으로 첫장에 그려낸후 그렇게 그려진것 위에 G, B 값 순서대로 lerp
+
+```C#
+ o.Albedo = d.rgb * IN.color.r + e.rgb * IN.color.g + f.rgb * IN.color.b + c.rgb * (1 - (IN.color.r + IN.color.g + IN.color.b));
+ ```
+ 이 똑같이 나오는 이유?
