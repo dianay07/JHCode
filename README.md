@@ -36,6 +36,8 @@
 - [힙](./DataStructure/%ED%9E%99/%ED%9E%99.md)
 
 ### Shader
+- [Normal map](./Shader/Normal%20map/Normal%20map.md)
+
 - [VertexColor](./Shader/VertexColor/VectexColor.md)
 
 - [코드구조.md](./Shader/%EC%BD%94%EB%93%9C%EA%B5%AC%EC%A1%B0.md/UnityShader%20%EC%BD%94%EB%93%9C%EA%B5%AC%EC%A1%B0.md)
