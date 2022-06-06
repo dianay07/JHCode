@@ -67,3 +67,83 @@ Deque ( Sequence Container )
     빠름 / 빠름
 - 임의 접근
     이터레이터 코드 내부를 보면 각자 주소를 다른 테이블로 관리하고 있어 하나하나 순환할 필요가없음
+
+Map
+---
+벡터의 데이터를 줄지어 관리하는 특징에서 발생하는 '원하는 조건에 해당하는 데이터를 빠르게 찾을 수 없다'는 단점을 해소할 구조
+" 연관 컨테이너 "
+
+균형 이진 트리 ( AVL ) 기반의 구조
+key, value를 페어로써 받음
+원소 검색이 빠름
+
+[ map.erase() ] 는 반환값이 bool 값이라 삭제되면 1을 반환되고, 어떤 사유로 인해 삭제가 실패하면 0을 반환해서 삭제할 원소가 없다해도 에러가 나지않음.
+
+[ map.insert() ] 는 똑같은 key값에 value값을 고치겟다고 같은 key값에 두번하면 두번째 요청이 무시됨.
+
+value값을 고치고 싶다면 키를 찾아들어가 value에 수정을 가함
+Map에 Insert시 없으면 자동으로 key와 value를 pair로 생성해서 추가해줌
+
+!! 없으면 추가, 있으면 수정 !!
+map[i] = xxx; 
+-> 맵에 해당 키가 없으면 추가하고, 없으면 추가해주지만 대입을 하지않더라도 (key, value) 형태에서 기본값이 0인 상태로 데이터가 추가되기 떄문에 데이터를 찾고싶다면 Find() 함수를 활용 
+
+-Map 순회
+데이터가 벡터처럼 연속해서 붙어있지 않기때문에 iterator를 이용해 순회함
+
+(insert, []) / (erase) / (find, []) / (map::iterator) (*it) pair<key, value>&
+
+
+set, multimap, multiset
+---
+연관 컨테이너 친척들
+
+Map을 사용할 때, Key값과 Value값이 일치하게 쓰고싶을때 -> set<type> ..;
+
+추가 : insert(i)
+삭제 : erase(i)
+검색 : 
+set<int>::iterator findit = s.find(i);
+if(findit == s.end())
+{
+    ... 못 찾음
+}
+else
+{
+    ... 찾음
+}
+순회 : map이랑 똑같은데 키 = value라 하나만 쓰면댐
+
+map에서 중복 키를 허용하는 것이 -> multimap
+    키값 삭제시 해당 키 값의 벨류가 다 삭제됨
+    하나만 삭제하고 싶으면 그 하나를 찾고 삭제
+    equal_range() => 키값이 같은 데이터들을 묶어 iterator로 사용가능
+    lower_bound = 해당 키값의 시작
+    upper_bound = 해당 키값의 끝
+
+set에서 중복 키를 허용하는 것이 -> multiset
+
+Algorithm
+---
+특정 구조를 이용해 만든 그 구조에 묶여버린 코드 ( Vector를 사용햇다 만들었다가 모종의 여유로 list로 바꾸면 구동되지 않는 코드들 ) 를 해결하기 위한 library
+
+-데이터를 찾거나, 갯수를 찾거나
+) find(first, last, value) : return iter
+) find_if(first, last, 조건) : return iter
+) count(first, last, value) : return int
+) count_if(first, last, 조건) : return int
+
+-모든 데이터를 대상으로 조건에 비교 (return bool)
+) all_of(first, last, 조건) : 모든 데이터가 조건에 충족하는가
+) any_of(first, last, 조건) : 조건에 충족하는 데이터가 하나라도 있는가
+) none_of(first, last, 조건) : 모든 데이터가 조건에 부합하는가
+
+-모든 데이터에 대해 뭔가를 행할때
+) for_each(first, last, 하고싶은 기능) : return 바꿔진 구조
+
+*-삭제*
+) remove(first, last, value)
+) remove_if(first, last, 조건) : 조건에 합당한 남겨줘야할 데이터를 구조의 첫 자리에 '복사'하기 때문에 불필요한 데이터가 삭제되는게 아님 -> 조건에 따라 순서를 재조정하고 남은 크기만큼 쓰레기값이 들어감
+    -> 반환된 iter에서 끝까지 erase를 한번더 거치면 원하던 내용이 
+
+v.erase(remove_if(v.begin(), b.end(), IsOdd()), v.end());s
