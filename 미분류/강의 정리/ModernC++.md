@@ -248,4 +248,5 @@ _name.lock() -> shared_ptr을 반환
 장점 : 생명주기에서 자유로워 짐, 순환구조 해결
 단점 : 사용하기 위해선 명시적으로 weak_ptr의 유무를 체크 후 shared_ptr로 반환시켜야함
 
-- unique_ptr
+- unique_ptr : 
+    프로그램 상에서 오직 하나의 포인터만 있어야할 떄
