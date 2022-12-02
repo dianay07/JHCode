@@ -3,21 +3,24 @@
 
 ---
 ### Algorithm
+- [DFS&BFS](./Algorithm/DFS%26BFS/DFS%26BFS.md)
+
+- [DP](./Algorithm/DP/LIS%28%EC%B5%9C%EC%9E%A5%EC%A6%9D%EA%B0%80%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%29.md)
+
 - [그리디 알고리즘](./Algorithm/%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 
 - [맵리듀스](./Algorithm/%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4/%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4.md)
 
-- [분할 정복](./Algorithm/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5.md)
-
 - [이진 검색](./Algorithm/%EC%9D%B4%EC%A7%84%20%EA%B2%80%EC%83%89/%EC%9D%B4%EC%A7%84%20%EA%B2%80%EC%83%89.md)
 
-### [C++](./C%2B%2B/FIrstTest.md)
+- [정렬 알고리즘](./Algorithm/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+
 ### DataStructure
 - [Array](./DataStructure/Array/Array.md)
 
-- [Deque](./DataStructure/Deque/Deque.md)
-
 - [List](./DataStructure/List/List.md)
+
+- [Queue](./DataStructure/Queue/Queue.md)
 
 - [Vector](./DataStructure/Vector/vector.md)
 
@@ -25,7 +28,7 @@
 
 - [디스조인트-셋](./DataStructure/%EB%94%94%EC%8A%A4%EC%A1%B0%EC%9D%B8%ED%8A%B8-%EC%85%8B/%EB%94%94%EC%8A%A4%EC%A1%B0%EC%9D%B8%ED%8A%B8-%EC%85%8B.md)
 
-- [맵](./DataStructure/%EB%A7%B5/Map.md)
+- [맵](./DataStructure/%EB%A7%B5/%EB%A7%B5.md)
 
 - [블룸 필터](./DataStructure/%EB%B8%94%EB%A3%B8%20%ED%95%84%ED%84%B0/%EB%B8%94%EB%A3%B8%20%ED%95%84%ED%84%B0.md)
 
@@ -44,16 +47,14 @@
 
 - [코드구조.md](./Shader/%EC%BD%94%EB%93%9C%EA%B5%AC%EC%A1%B0.md/UnityShader%20%EC%BD%94%EB%93%9C%EA%B5%AC%EC%A1%B0.md)
 
-### [미분류](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%A9%94%EB%AA%A8.md)
-- [C++ 표준 라이브러리 함수](./%EB%AF%B8%EB%B6%84%EB%A5%98/C%2B%2B%20%ED%91%9C%EC%A4%80%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%ED%95%A8%EC%88%98/C%2B%2B%20%ED%91%9C%EC%A4%80%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%ED%95%A8%EC%88%98.md)
-
+### 미분류
 - [DirectX12](./%EB%AF%B8%EB%B6%84%EB%A5%98/DirectX12/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC.md)
 
-- [강의 정리](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC/%EA%B2%8C%EC%9E%84%20%EC%88%98%ED%95%99.md)
-- [강의 정리](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC/STL.md)
 - [강의 정리](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC/directX12.md)
 - [강의 정리](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC/ModernC%2B%2B.md)
+- [강의 정리](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC/%EA%B2%8C%EC%9E%84%20%EC%88%98%ED%95%99.md)
 - [강의 정리](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%28C%2B%2B%29.md)
+- [강의 정리](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC/STL.md)
 
 - [렌더링 파이프라인](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.md)
 
@@ -62,7 +63,4 @@
 - [빌더 함수](./%EB%AF%B8%EB%B6%84%EB%A5%98/%EB%B9%8C%EB%8D%94%20%ED%95%A8%EC%88%98/%EB%B9%8C%EB%8D%94%20%ED%95%A8%EC%88%98%28builder%20function%29.txt)
 
 - [프로세스와 스레드](./%EB%AF%B8%EB%B6%84%EB%A5%98/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
-
-### [본것](./%EB%B3%B8%EA%B2%83/Unity)
-- [STL.Numeric](./%EB%B3%B8%EA%B2%83/STL.Numeric/Numeric.md)
 
