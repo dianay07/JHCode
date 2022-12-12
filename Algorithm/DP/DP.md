@@ -60,3 +60,60 @@ int main()
 	return 0;
 }
 ```
+
+# Triangle Path
+
+Triangle_path
+---
+	- (0, 0)부터 시작해서 하단 or 우하단으로 이동 가능
+	- 만나는 숫자를 모두 더함
+	- 더한 숫자가 '최대'가 되는 경로 또는 합을 구하는 형식
+
+```c++
+
+#include <vector>
+
+int N;
+vector<vector<int>> board;
+vector<vector<int>> cache;
+vector<vector<int>> nextX; 		// 경로
+
+int path(int y, int x)
+{
+	// 기저 사항
+	if(y == N)
+		return 0;
+
+	// 캐시
+	int& ret = cache[y][x];
+	if(ret != -1)
+		return ret;
+
+	// 풀이
+	return ret = board[y][x] + max(path(y + 1, x), path(y + 1, x + 1));
+}
+
+int main()
+{
+	cin >> N;
+
+	cache = vector<vector<int>>(N, vector<int>(N, -1));
+
+	tri.resize(N);
+	for (int i = 0; i < N; i++)
+	{
+		for (int j = 0; j < i + 1; j++)
+		{
+			int x;
+			cin >> x;
+
+			tri[i].push_back(x);
+		}
+	}
+
+	int ret = solution(0, 0);
+	cout << ret << "\n";
+
+	return 0;
+}
+```
