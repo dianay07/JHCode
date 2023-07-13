@@ -28,8 +28,6 @@ int main()
 		{
 			if (S[j] == a)
 				count++;
-
-			temp += S[j];
 		}
 
 		cout << count << "\n";
