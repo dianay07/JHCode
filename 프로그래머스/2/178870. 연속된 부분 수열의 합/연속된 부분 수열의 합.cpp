@@ -14,11 +14,13 @@ vector<int> solution(vector<int> sequence, int k)
 
     while (end < sequence.size())
     {
-        if (sum < k) {
+        if (sum < k) 
+        {
             if (++end < sequence.size()) 
                 sum += sequence[end];
         }
-        else {
+        else 
+        {
             if (sum == k && end - start + 1 < length)
             { 
                 length = end - start + 1;
