@@ -13,13 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\PatternCode">
+      <UniqueIdentifier>{daec114f-810a-4db9-9e8b-4fd70d5993d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Command.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="PatternCode\Command.cpp">
+      <Filter>소스 파일\PatternCode</Filter>
     </ClCompile>
-    <ClCompile Include="Flyweight.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="PatternCode\Flyweight.cpp">
+      <Filter>소스 파일\PatternCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
