@@ -34,14 +34,17 @@ void IndexDemo::Initialize()
 
 	//Create Index Buffer
 	{
+		// 인덱스 버퍼 구조체 서술
 		D3D11_BUFFER_DESC desc;
 		ZeroMemory(&desc, sizeof(D3D11_BUFFER_DESC));
 		desc.ByteWidth = sizeof(UINT) * 6;
 		desc.BindFlags = D3D11_BIND_INDEX_BUFFER;
 
+		// 인덱스 버퍼를 초기화할 자료를 지정
 		D3D11_SUBRESOURCE_DATA subResource = { 0 };
 		subResource.pSysMem = indices;
 
+		// 인덱스 버퍼 생성
 		Check(D3D::GetDevice()->CreateBuffer(&desc, &subResource, &indexBuffer));
 	}
 	

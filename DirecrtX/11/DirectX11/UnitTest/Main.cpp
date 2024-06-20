@@ -27,7 +27,7 @@
 
 void Main::Initialize()
 {
-	Push(new CubeSkyDemo());
+	//Push(new CubeSkyDemo());
 	//Push(new CubeMapDemo());
 	//Push(new MeshDemo());
 	//Push(new GetVerticalRaycast());
@@ -43,7 +43,7 @@ void Main::Initialize()
 	//Push(new IndexDemo());
 	//Push(new WorldDemo3());
 	//Push(new WorldDemo2());
-	//Push(new WorldDemo());
+	Push(new WorldDemo());
 	//Push(new UserInterfaceDemo());
 	//Push(new RectDemo());
 	//Push(new TriangleList());

@@ -95,19 +95,22 @@ void Shader::CreateEffect()
 	//SafeRelease(fxBlob);
 }
 
+// Input layout decription 배열 생성
 ID3D11InputLayout * Shader::CreateInputLayout(ID3DBlob * fxBlob, D3DX11_EFFECT_SHADER_DESC* effectVsDesc, vector<D3D11_SIGNATURE_PARAMETER_DESC>& params)
 {
 	std::vector<D3D11_INPUT_ELEMENT_DESC> inputLayoutDesc;
+	// 각 정점 구조체의 성분을 서술
 	for (D3D11_SIGNATURE_PARAMETER_DESC& paramDesc : params)
 	{
 		D3D11_INPUT_ELEMENT_DESC elementDesc;
-		elementDesc.SemanticName = paramDesc.SemanticName;
-		elementDesc.SemanticIndex = paramDesc.SemanticIndex;
-		elementDesc.InputSlot = 0;
-		elementDesc.AlignedByteOffset = D3D11_APPEND_ALIGNED_ELEMENT;
-		elementDesc.InputSlotClass = D3D11_INPUT_PER_VERTEX_DATA;
-		elementDesc.InstanceDataStepRate = 0;
+		elementDesc.SemanticName = paramDesc.SemanticName;				// 성분에 부여된 문자열 이름, 반드시 유효한 변수 이름
+		elementDesc.SemanticIndex = paramDesc.SemanticIndex;			// 텍스쳐 좌표가 여러개일 경우 구별을 위한 번호 지정
+		elementDesc.InputSlot = 0;										// 원소가 공급될 정점 버퍼 슬롯의 인덱스 DX에선 0~15 16개를 지원
+		elementDesc.AlignedByteOffset = D3D11_APPEND_ALIGNED_ELEMENT;	// 정점 성분과 시작 위치 사이의 오프셋 (거리) 
+		elementDesc.InputSlotClass = D3D11_INPUT_PER_VERTEX_DATA;		// 고정, 다른 값은 고급 기법인 인스턴싱에 사용
+		elementDesc.InstanceDataStepRate = 0;							// 일단 0, 다른 값은 인스턴싱에 사용
 
+		// Format = 정점 성분의 자료 형식을 표시
 		if (paramDesc.Mask == 1)
 		{
 			if (paramDesc.ComponentType == D3D_REGISTER_COMPONENT_UINT32)
@@ -176,11 +179,11 @@ ID3D11InputLayout * Shader::CreateInputLayout(ID3DBlob * fxBlob, D3DX11_EFFECT_S
 		ID3D11InputLayout* inputLayout = NULL;
 		HRESULT hr = D3D::GetDevice()->CreateInputLayout
 		(
-			&inputLayoutDesc[0]
-			, inputLayoutDesc.size()
-			, pCode
-			, pCodeSize
-			, &inputLayout
+			&inputLayoutDesc[0]		// 정점 구조체를 서술하는 ELEMENT_DESC들의 배열
+			, inputLayoutDesc.size()	// 등록된 배열의 원소갯수
+			, pCode		// 정점 쉐이더를 컴파일해 얻은 바이트 코드를 가리키는 포인터
+			, pCodeSize	// 바이트 코드의 크기
+			, &inputLayout	// 생성된 입력 배치를 이 포인터를 통해 리턴
 		);
 		Check(hr);
 
@@ -236,6 +239,7 @@ void Shader::Pass::BeginDraw()
 
 void Shader::Pass::EndDraw()
 {
+	// 
 	if (StateBlockMask.RSRasterizerState == 1)
 		D3D::GetDC()->RSSetState(StateBlock->RSRasterizerState);
 
