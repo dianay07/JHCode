@@ -11,43 +11,34 @@ int main()
     int T;
     cin >> T;
 
-    for(int i = 0; i < T; i++)
+    for (int i = 0; i < T; i++)
     {
         stack<char> tack;
         string str;
-        bool value = false;
+        bool value = true;
 
         cin >> str;
 
-    	for(int j = 0; j < str.size(); j++)
+        for (int j = 0; j < str.size(); j++)
         {
             if (str[j] == '(')
                 tack.push(str[j]);
-            else if (str[j] == ')')
+            else
             {
-                if (tack.empty() == false)
-                {
-                    tack.pop();
-                    value = true;
-                }
-                else
+                if (tack.empty() == true)
                 {
                     value = false;
                     break;
                 }
+
+                tack.pop();
             }
         }
 
-        if (value == false)
-            cout << "NO" << "\n";
+        if (value == true && tack.empty() == true)
+            cout << "YES" << "\n";
         else
-        {
-            if (tack.empty() == true)
-                cout << "YES" << "\n";
-            else
-                cout << "NO" << "\n";
-        }
-            
+            cout << "NO" << "\n";
     }
 
     return 0;
